@@ -548,7 +548,7 @@ ul.pages li.active {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 50px;
+    padding: 50px 0;
     background-color: var(--Template-color);
     text-align: center;
     color: #fff;
@@ -559,7 +559,6 @@ ul.pages li.active {
     margin-bottom: 40px;
     font-size: 25px;
     font-weight: normal;
-
 }
 .video-section .text p {
     text-transform: capitalize;
@@ -573,6 +572,21 @@ ul.pages li.active {
     color: #fff;
     text-transform: uppercase;
 
+}
+@media (max-width: 767px) {
+    .video-section .text {
+        padding: 30px 0;
+    }
+    .video-section .text h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .video-section .text p {
+        margin-bottom: 25px;
+    }
+    .video-section .text a {
+        font-size: 14px;
+    }
 }
 /* End The video Section  */
 
@@ -1003,6 +1017,7 @@ ul.pages li.active {
     padding: 20px 20px 20px 60px;
     color: #fff;
     caret-color: var(--brand-color);
+    border-radius: 0;
 }
 .subscribe .container form input[type="email"]::placeholder {
     color: #fff;
@@ -1016,6 +1031,7 @@ ul.pages li.active {
     border-left: none;
     padding: 20px;
     cursor: pointer;
+    border-radius: 0;
 }
 
 .subscribe .container form input:focus {
@@ -1115,8 +1131,9 @@ ul.pages li.active {
         margin-bottom: 30px;
     }
 }
-.contact-us .contact-box .text .text-two li {
-    font-style: italic;
+.contact-us .contact-box .text .text-two address {
+    color: #777;
+    line-height: 2;
 }
 /* End Contact Us Section */
 /* ================================================================== */

@@ -8,21 +8,17 @@
     padding: 0;
     margin: 0;
 }
-
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     font-family: "Open Sans", sans-serif;
 }
-
 /* End Globale Rules */
 
 /* Start Typical Components */
@@ -145,7 +141,6 @@ ul.pages li.active {
     z-index: 0;
     opacity: 0.6;
 }
-
 .landing .header {
     display: flex;
     justify-content: space-between;
@@ -154,7 +149,6 @@ ul.pages li.active {
     z-index: 1;
     min-height: 97px;
 }
-
 .landing .header::after {
     content: "";
     position: absolute;
@@ -164,17 +158,14 @@ ul.pages li.active {
     bottom: 0;
     left: 0;
 }
-
 .landing .header .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .landing .container .header .nav-bar i.menu {
     display: none;
 }
-
 @media (max-width: 767px){
     .landing .container .header .nav-bar i.menu {
         display: block;
@@ -194,7 +185,6 @@ ul.pages li.active {
         padding: 20px 10px;
     }
 }
-
 .landing .header .nav-bar .nav ul {
     display: flex;
 }

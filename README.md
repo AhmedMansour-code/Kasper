@@ -15,6 +15,7 @@ HTML & CSS Website Template 2
 
 ## General info
 This is my first responsive HTML & CSS Project , boxed website Template.
+
 License : Kasper - One Page Creative PSD Template
 link : https://www.graphberry.com/item/kasper-one-page-psd-template
 
@@ -23,7 +24,7 @@ Project is created with:
 * Visual Studio Code
 	
 
-## Link To view The DashBoard
+## Link To view The Website
 	
 https://ahmedmansour-code.github.io/Kasper/
 
